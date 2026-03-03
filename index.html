@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Library</title>
-    <link rel="icon" href="../icons/readingsIcon.png" />
+    <link rel="icon" href="./assets/icons/readingsIcon.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <h1>Digital Library</h1>
 
+      <p id="intro">
+        What I've read, what I'll read, and what I'm reading, plus some
+        thoughts.
+      </p>
+
       <hr />
 
-      <div>
-        <p>
-          Harry Potter and the Sorcerer's Stone <br />
-          J. K. Rowling
-        </p>
+      <div class="bookShelf">
+        <div class="booksData">
+          <p>
+            Harry Potter and the Sorcerer's Stone <br />
+            J. K. Rowling
+          </p>
+        </div>
         <a
           href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone?ref=nav_sb_ss_1_35"
           target="_blank"
@@ -25,10 +33,32 @@
             alt="Cover of Harry Potter and the Sorcerer's Stone"
             width="150"
         /></a>
-        <p>Status: Reading</p>
+        <div class="status">
+          <p>Status: Reading</p>
+        </div>
       </div>
 
-      <h3>Credits</h3>
+      <div class="bookShelf">
+        <div class="booksData">
+          <p>
+            1984 <br />
+            G. Orwell
+          </p>
+        </div>
+        <a
+          href="https://www.goodreads.com/book/show/59014627-1984"
+          target="_blank"
+          ><img
+            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631884170i/59014627.jpg"
+            alt="Cover of 1984"
+            width="150"
+        /></a>
+        <div class="status">
+          <p>Status: Reading</p>
+        </div>
+      </div>
+
+      <h2>Credits</h2>
 
       <ol>
         <li>

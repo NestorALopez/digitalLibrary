@@ -1,0 +1,16 @@
+html {
+  background-color: #fefcf3;
+  margin: 0 20px;
+}
+
+div.bookShelf {
+  background-color: #efe9e3;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: rotate(5deg);
+}
