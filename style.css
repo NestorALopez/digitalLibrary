@@ -3,8 +3,20 @@ html {
   margin: 0 20px;
 }
 
-div.bookShelf {
+.bookShelf {
   background-color: #efe9e3;
+  width: 15%;
+  height: 370px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.booksData {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -13,4 +25,9 @@ img {
 
 img:hover {
   transform: rotate(5deg);
+}
+
+.status {
+  height: 100px;
+  vertical-align: center;
 }
