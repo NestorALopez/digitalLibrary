@@ -4,6 +4,21 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+#title {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-size: 64pt;
+}
+
+#intro {
+  margin-left: 20px;
+  color: grey;
+}
+
+#emptySpace {
+  height: 30px;
+}
+
 .bookShelf {
   background-color: #efe9e3;
   width: 230px;
