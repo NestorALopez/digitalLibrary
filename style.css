@@ -15,20 +15,22 @@ html {
 }
 
 .bookShelf:hover {
-  background-color: #dfdad5;
+  background-color: #e6e1dc;
 }
 
 .bookTitle {
+  margin-top: 10px;
   margin-left: 15px;
+  margin-bottom: 5px;
   width: 200px;
   font-weight: 600;
 }
 
 .bookAuthor {
   width: 200px;
-  margin-left: 15px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
   font-size: 11pt;
   color: #c9b59c;
 }
