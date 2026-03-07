@@ -3,6 +3,9 @@
 altura del contenido */
 * {
   box-sizing: border-box;
+
+  background-color: #f8fafc;
+  color: #355872;
 }
 
 body {
@@ -14,22 +17,31 @@ body {
   display: flex;
 }
 
-.container.content {
+main.container.content {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.container.selector {
-  gap: 50px;
-  border: 5px solid blueviolet;
+div.container.selector {
+  width: 50vh;
+  justify-content: space-between;
 }
 
-.item.selector {
+p.item.selector {
   width: 80px;
-  text-align: center;
-  border: 5px solid green;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #d9eafd;
+
+  border-radius: 5px;
+  border: 2px solid #355872;
+  border-top: 2px solid #4f83a8;
 }
 
 a.status-anchor {
