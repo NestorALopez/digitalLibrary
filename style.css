@@ -1,80 +1,33 @@
-html {
-  background-color: #fefcf3;
-  margin: 0 20px;
-  font-family: "Poppins", sans-serif;
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Para evitar que el navegador genere una barra de navegación debido a la 
+altura del contenido */
+* {
+  box-sizing: border-box;
 }
 
-#title {
-  font-family: "Fleur De Leah", cursive;
-  font-weight: 400;
-  font-size: 64pt;
+body {
+  margin: 0;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.container {
+  display: flex;
 }
 
-.initialLetter {
-  color: #9dc858;
+.container.content {
+  height: 95vh; /* 
+  border: 5px solid blueviolet; */
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-#intro {
-  margin-left: 20px;
-  color: grey;
+.container.selector {
+  gap: 50px;
 }
 
-#emptySpace {
-  height: 30px;
-}
-
-.bookShelf {
-  background-color: #efe9e3;
-  width: 230px;
-  height: fit-content;
-  border-radius: 5px;
-  margin: 10px 10px;
-  text-align: center;
-  display: inline-block;
-}
-
-.bookShelf:hover {
-  background-color: #e6e1dc;
-}
-
-.bookTitle {
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  width: 200px;
-  font-weight: 600;
-}
-
-.bookAuthor {
-  width: 200px;
-  margin-top: 0;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  font-size: 11pt;
-  color: #c9b59c;
-}
-
-img {
-  transition: transform 0.3s ease;
-  border-radius: 5px;
-}
-
-.bookShelf:hover img {
-  transform: rotate(5deg);
-}
-
-.status {
-  width: 150px;
-  margin-left: 40px;
-}
-
-.status p {
-  background-color: #fae2a4;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #e8d19a;
-}
-
-.credits {
-  color: grey;
+.status-anchor {
+  text-decoration: none;
+  color: #a3a3a3;
 }

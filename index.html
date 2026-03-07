@@ -3,113 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Library</title>
+    <title>My Digital Library</title>
     <link rel="icon" href="./assets/icons/readingsIcon.png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main>
-      <h1 id="title">
-        <span class="initialLetter">W</span>elcome to my digital library!
-      </h1>
-
-      <p id="intro">
-        What I've read, what I'll read, and what I'm reading, plus some
-        thoughts.
+    <main class="container content">
+      <h1 class="item title">Welcome to my digital library!</h1>
+      <p class="item intro">
+        What I've read, what I'm reading and what I'll read, plus some thoughts.
       </p>
 
-      <div id="emptySpace"></div>
-
-      <div class="bookShelf">
-        <div class="booksData">
-          <p class="bookTitle">Harry Potter and the Sorcerer's Stone</p>
-          <p class="bookAuthor">J. K. Rowling</p>
+      <div class="container selector">
+        <div class="item selector">
+          <p><a class="status-anchor" href="./read.html">Read</a></p>
         </div>
-        <a
-          href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone?ref=nav_sb_ss_1_35"
-          target="_blank"
-          ><img
-            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1682045100i/61780045.jpg"
-            alt="Cover of Harry Potter and the Sorcerer's Stone"
-            height="250px"
-        /></a>
-        <div class="status">
-          <p>Reading</p>
+        <div class="item selector">
+          <p><a class="status-anchor" href="./reading.html">Reading</a></p>
+        </div>
+        <div class="item selector">
+          <p><a class="status-anchor" href="./willRead.html">Will read</a></p>
         </div>
       </div>
-
-      <div class="bookShelf">
-        <div class="bookData">
-          <p class="bookTitle">1984</p>
-          <p class="bookAuthor">George Orwell</p>
-        </div>
-        <a
-          href="https://www.goodreads.com/book/show/59014627-1984"
-          target="_blank"
-          ><img
-            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631884170i/59014627.jpg"
-            alt="Cover of 1984"
-            height="250px"
-        /></a>
-        <div class="status">
-          <p>Reading</p>
-        </div>
-      </div>
-
-      <div class="bookShelf">
-        <div class="bookData">
-          <p class="bookTitle">Hábitos atómicos</p>
-          <p class="bookAuthor">James Clear</p>
-        </div>
-        <a
-          href="https://www.goodreads.com/book/show/45028173-h-bitos-at-micos?from_search=true&from_srp=true&qid=cThpw7cftH&rank=1"
-          target="_blank"
-          ><img
-            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555084828i/45028173.jpg"
-            alt="Cover of Hábitos atómicos"
-            height="250px"
-        /></a>
-        <div class="status">
-          <p>Reading</p>
-        </div>
-      </div>
-
-      <div class="bookShelf">
-        <div class="bookData">
-          <p class="bookTitle">Aprende a cuidar de tu niño interior</p>
-          <p class="bookAuthor">Jordi Gil Martín</p>
-        </div>
-        <a
-          href="https://www.goodreads.com/book/show/80197961-aprende-a-cuidar-de-tu-ni-o-interior?from_search=true&from_srp=true&qid=mp4d5Y7GMc&rank=1"
-          target="_blank"
-          ><img
-            src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1674074140i/80197961.jpg"
-            alt="Cover of Aprende a cuidar de tu niño interior"
-            height="250px"
-        /></a>
-        <div class="status">
-          <p>Reading</p>
-        </div>
-      </div>
-
-      <h2>Credits</h2>
-
-      <ol>
-        <li>
-          <a
-            class="credits"
-            href="https://www.flaticon.com/free-icons/book"
-            title="book icons"
-            >Book icons created by mikan933 - Flaticon</a
-          >
-        </li>
-      </ol>
     </main>
   </body>
 </html>
