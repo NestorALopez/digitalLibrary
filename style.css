@@ -6,12 +6,24 @@ altura del contenido */
 
   background-color: #f8fafc;
   color: #355872;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 14pt;
+
+  text-align: center;
 }
 
 body {
   margin: 0;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 64pt;
+  margin: 20px;
+}
 
 .container {
   display: flex;
@@ -25,13 +37,13 @@ main.container.content {
 }
 
 div.container.selector {
-  width: 50vh;
-  justify-content: space-between;
+  width: 100vh;
+  justify-content: space-around;
 }
 
 p.item.selector {
-  width: 80px;
-  height: 30px;
+  width: 130px;
+  height: 50px;
 
   display: flex;
   align-items: center;
@@ -40,8 +52,11 @@ p.item.selector {
   background-color: #d9eafd;
 
   border-radius: 5px;
-  border: 2px solid #355872;
-  border-top: 2px solid #4f83a8;
+  border: 3px solid #355872;
+  border-top: 3px solid #4f83a8;
+
+  font-weight: 500;
+  font-size: 16pt;
 }
 
 a.status-anchor {
