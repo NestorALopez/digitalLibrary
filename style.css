@@ -9,12 +9,11 @@ altura del contenido */
 
   font-family: "Poppins", sans-serif;
   font-size: 14pt;
-
-  text-align: center;
 }
 
-body {
+body#home-page {
   margin: 0;
+  text-align: center;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -29,19 +28,19 @@ h1 {
   display: flex;
 }
 
-main.container.content {
+#home-page main.container.content {
   height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-div.container.selector {
+#home-page div.container.nav-bar {
   width: 100vh;
   justify-content: space-around;
 }
 
-p.item.selector {
+#home-page p.nav-bar {
   width: 130px;
   height: 50px;
 
@@ -66,7 +65,7 @@ p.item.selector {
     border-top 0.3s ease;
 }
 
-p.item.selector:hover {
+#home-page p.nav-bar:hover {
   transform: translate(0, -5px);
 
   background-color: #edf5ff;
@@ -76,6 +75,6 @@ p.item.selector:hover {
   border-top: 3px solid #5791bb;
 }
 
-a.status-anchor {
+a {
   text-decoration: none;
 }
