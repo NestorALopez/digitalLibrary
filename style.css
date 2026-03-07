@@ -15,19 +15,23 @@ body {
 }
 
 .container.content {
-  height: 95vh; /* 
-  border: 5px solid blueviolet; */
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   align-items: center;
 }
 
 .container.selector {
   gap: 50px;
+  border: 5px solid blueviolet;
 }
 
-.status-anchor {
+.item.selector {
+  width: 80px;
+  text-align: center;
+  border: 5px solid green;
+}
+
+a.status-anchor {
   text-decoration: none;
-  color: #a3a3a3;
 }
