@@ -58,11 +58,22 @@ p.item.selector {
   font-weight: 500;
   font-size: 16pt;
 
-  transition: transform 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border 0.3s ease,
+    border-top 0.3s ease;
 }
 
 p.item.selector:hover {
   transform: translate(0, -5px);
+
+  background-color: #edf5ff;
+  color: #416c8d;
+
+  border: 3px solid #3d6482;
+  border-top: 3px solid #5791bb;
 }
 
 a.status-anchor {
