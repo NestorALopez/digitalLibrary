@@ -138,6 +138,7 @@ body#reading-page {
 
 #reading-page div.container.bookshelf {
   flex-wrap: wrap;
+  justify-content: space-around;
 
   gap: 30px;
 }
